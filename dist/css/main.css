@@ -173,7 +173,7 @@
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
-.about .jobs__job__client {
+.about .jobs__job__list {
   margin-bottom: 0.5rem;
 }
 .about .jobs__job ul {
@@ -181,12 +181,6 @@
 }
 .about .jobs__job ul li {
   margin: 0.2rem 1rem 0;
-}
-.about .jobs__job__client-item {
-  margin-left: 1rem;
-}
-.about .jobs__job__client-item-last {
-  margin-bottom: 1rem;
 }
 .about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem 0;
