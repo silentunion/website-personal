@@ -88,7 +88,7 @@
   transform: translateX(0);
 }
 .nav .menu-nav__item.active > a {
-  color: #ff652f;
+  color: #2499b6;
 }
 .nav .menu-nav__link {
   display: inline-block;
@@ -99,7 +99,7 @@
   transition: all 0.5s ease-in-out;
 }
 .nav .menu-nav__link:hover {
-  color: #ff652f;
+  color: #2499b6;
 }
 
 .menu-nav__item:nth-child(1) {
@@ -132,7 +132,7 @@
   border-bottom: 2px solid #fff;
 }
 .home__name--last {
-  color: #ff652f;
+  color: #2499b6;
   font-weight: 700;
 }
 
@@ -158,7 +158,7 @@
   padding-bottom: 1rem;
 }
 .about .jobs {
-  width: 60vw;
+  width: 70vw;
   margin: 2rem auto 0 auto;
   display: grid;
   grid-template-columns: 1fr;
@@ -167,13 +167,30 @@
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #2499b6;
+}
+.about .jobs__job__description {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.about .jobs__job__list {
+  margin-bottom: 0.5rem;
+}
+.about .jobs__job ul {
+  margin-top: 0.3rem;
+}
+.about .jobs__job ul li {
+  margin: 0.2rem 1rem 0;
 }
 .about .jobs__job h2, .about .jobs__job h3 {
   margin: 0.5rem 0;
 }
 .about .jobs__job h6 {
   margin: 0.3rem 0;
+}
+.about .end-statement {
+  text-align: center;
+  margin-top: 1em;
 }
 .about .social-icons {
   display: flex;
@@ -207,7 +224,7 @@
 }
 .projects__item {
   position: relative;
-  border-bottom: 5px solid #ff652f;
+  border-bottom: 5px solid #2499b6;
   overflow: hidden;
   cursor: pointer;
 }
@@ -221,7 +238,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #ff652f;
+  background: #2499b6;
   opacity: 0;
   transition: all 0.5s ease-in-out;
 }
@@ -274,6 +291,12 @@
   grid-gap: 2rem;
   font-size: 1.5rem;
 }
+.contact__center {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 5px;
+}
 .contact .social-icons {
   position: initial;
   margin-top: 2rem;
@@ -321,10 +344,16 @@
     grid-template-columns: repeat(3, 1fr);
   }
   .contact__list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 @media screen and (min-width: 1600px) {
+  .about__bio {
+    width: 50%;
+  }
+  .about .jobs {
+    width: 50vw;
+  }
   .projects__bio-image {
     height: 50vh;
   }
@@ -347,7 +376,7 @@ a {
 }
 
 .text-secondary {
-  color: #ff652f;
+  color: #2499b6;
 }
 
 header {
@@ -371,7 +400,7 @@ main .social-icons a {
   transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
-  color: #ff652f;
+  color: #2499b6;
 }
 
 footer {
