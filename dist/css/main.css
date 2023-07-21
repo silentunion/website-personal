@@ -188,6 +188,10 @@
 .about .jobs__job h6 {
   margin: 0.3rem 0;
 }
+.about .end-statement {
+  text-align: center;
+  margin-top: 1em;
+}
 .about .social-icons {
   display: flex;
   flex-direction: column;
@@ -344,6 +348,12 @@
   }
 }
 @media screen and (min-width: 1600px) {
+  .about__bio {
+    width: 50%;
+  }
+  .about .jobs {
+    width: 50vw;
+  }
   .projects__bio-image {
     height: 50vh;
   }

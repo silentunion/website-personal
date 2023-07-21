@@ -46,6 +46,7 @@
 }
 
 @include media-lg {
+
   .projects {
     &__items {
       grid-template-columns: repeat(3, 1fr); 
@@ -58,6 +59,16 @@
 }
 
 @include media-xl {
+  .about{
+    &__bio {
+      width: 50%;
+    }
+
+    .jobs{
+      width: 50vw;
+    }
+  }
+
   .projects__bio-image {
     height: 50vh;
   }
